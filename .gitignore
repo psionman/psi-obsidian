@@ -1,0 +1,23 @@
+# Obsidian workspace (causes most merge conflicts)
+.obsidian/workspace
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json
+
+# UI/state files (often machine-specific)
+.obsidian/app.json
+.obsidian/appearance.json
+
+# Caches and temporary files
+.obsidian/cache/
+.obsidian/.trash/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+*.md~
+*.log
+
+# Optional: Ignore all plugins/themes if you reinstall them per device
+# .obsidian/plugins/
+# .obsidian/themes/

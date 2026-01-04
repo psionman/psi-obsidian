@@ -1,0 +1,41 @@
+:root {
+    --code-bg: #efefef;
+    --code-text: #141414;
+    --code-keyword: #c792ea;
+    --code-string: #ecc48d;
+    --code-comment: #6a9955;
+}
+
+/* Live Preview / Source Mode */
+.cm-s-obsidian span.cm-keyword {
+    color: var(--code-keyword) !important;
+}
+
+.cm-s-obsidian span.cm-string {
+    color: var(--code-string) !important;
+}
+
+.cm-s-obsidian span.cm-comment {
+    color: var(--code-comment) !important;
+}
+
+/* Reading View (no keyword tokens available) */
+.markdown-preview-view pre {
+    background-color: var(--code-bg);
+}
+
+.markdown-preview-view pre,
+.markdown-source-view pre {
+    padding: 0.4em 0.6em;
+    margin: 0.3em 0;}
+
+.markdown-preview-view pre code,
+.cm-s-obsidian .HyperMD-codeblock {
+    line-height: 1.05 !important;
+}
+
+
+.markdown-preview-view pre code {
+    color: var(--code-text);
+    line-height: 0.5 !important;
+}
