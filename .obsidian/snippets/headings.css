@@ -1,0 +1,53 @@
+/* ===== Editor (CM6) Headings ===== */
+.cm-header-1 span.cm-header {
+    font-size: 36px !important;
+    font-weight: bold !important;
+    display: block !important;  /* necessary to make size apply */
+    color: #e63946 !important;
+}
+
+.cm-header-2 span.cm-header {
+    font-size: 10px !important;
+    font-weight: bold !important;
+    display: block !important;
+    color: #f1fa8c !important;
+}
+
+.cm-header-3 span.cm-header {
+    font-size: 26px !important;
+    font-weight: bold !important;
+    display: block !important;
+    color: #a8dadc !important;
+}
+
+/* Preview mode still works normally */
+.markdown-preview-view h1 {
+    font-size: 36px;
+    color: #e63946;
+    margin-top: 0em;   /* space above heading */
+    margin-bottom: 0em; /* space below heading */
+}
+.markdown-preview-view h2 {
+    font-size: 18px;
+    color: green;
+    margin: 0;          /* remove default top/bottom margin */
+    padding: 0;         /* remove internal padding */
+    line-height: 1;   /* optional: tighten vertical spacing */
+}
+.markdown-preview-view h3 {
+    font-size: 26px;
+    color: #a8dadc;
+}
+
+/* Remove background and border around tags */
+.markdown-preview-view .tag {
+    background: none !important;   /* remove gray background */
+    border: 1px solid #ffccff;   /* 1px width, solid line, red color */
+    border-radius: 4px;          /* optional, rounded corners */
+    padding: 2px 6px;
+    padding: 0 !important;         /* remove extra padding */
+    font-weight: normal !important; /* optional: remove bolding */
+    margin-top: 0em;   /* space above heading */
+    margin-bottom: 0em; /* space below heading */
+}
+

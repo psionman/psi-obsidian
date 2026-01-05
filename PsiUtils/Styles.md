@@ -1,3 +1,4 @@
+tag: #styles
 #### Labels - foreground
     red-fg.TLabel
     green-fg.TLabel
@@ -44,3 +45,4 @@
               background=fixed_map(style, 'background'))
 #### Emoji font
     Emoji.TButton', font=('Segoe UI Emoji', 8))
+
